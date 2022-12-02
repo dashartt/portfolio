@@ -1,17 +1,34 @@
-import { Badge, Box, HStack, IconButton, Image, Link, Text } from '@chakra-ui/react';
-import { BiLink, BiNavigation } from 'react-icons/bi';
+import { Badge, Box, Heading, HStack, Image, Link, Text } from '@chakra-ui/react';
 
-export default function ProjectCard() {
+import { ProjectDTO } from '../../types';
+
+type Props = {
+  data: ProjectDTO;
+};
+
+export default function ProjectCard({ data }: Props) {
   return (
     <Box bg="white" maxW="200px" padding="10px" margin="0 auto">
       <HStack justifyContent="space-between">
-        <Link href="#">Repo</Link>
-        <Link href="#">Go to</Link>
+        <Link bg="black" color="whitesmoke" padding="0 10px" href={data?.linkRepo}>
+          Repo
+        </Link>
+        <Link bg="black" color="whitesmoke" padding="0 10px" href={data?.linkGoTo}>
+          Go to
+        </Link>
       </HStack>
-      <Image src="" alt="projeto#1" fallbackSrc="https://via.placeholder.com/150" />
-      <Text>Title project#1</Text>
-      <Badge colorScheme="orange">React</Badge>
-      <Badge colorScheme="blue">Express</Badge>
+      <Image
+        margin="10px 0"
+        src={data?.thumbnail}
+        alt="projeto#1"
+        fallbackSrc="https://via.placeholder.com/150"
+      />
+      <Heading fontSize="1.2em" as="h2">
+        {data?.name}
+      </Heading>
+      {data?.tags?.map((tag) => (
+        <Badge key={Math.random() * 100}>{tag}</Badge>
+      ))}
     </Box>
   );
 }

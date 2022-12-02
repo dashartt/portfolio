@@ -1,5 +1,6 @@
 import { Box, Heading, SimpleGrid } from '@chakra-ui/react';
 
+import projects from '../../assets/projects/projects.json';
 import Header from '../../components/header/Header';
 import ProjectCard from '../../components/project-card/ProjectCard';
 
@@ -19,8 +20,9 @@ export default function Projects() {
       </Heading>
 
       <SimpleGrid margin="1.5m" columns={{ base: 1, sm: 2, md: 3, lg: 4 }} gap="2em">
-        <ProjectCard />
-        <ProjectCard />
+        {projects?.map((project) => (
+          <ProjectCard key={Math.random() * 100} data={project} />
+        ))}
       </SimpleGrid>
     </Box>
   );
