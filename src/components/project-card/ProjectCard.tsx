@@ -11,7 +11,7 @@ export default function ProjectCard({ data }: Props) {
     <Box bg="white" maxW="300px" padding="10px" margin="0 auto">
       <HStack justifyContent="space-between">
         <Link bg="black" color="whitesmoke" padding="0 10px" href={data?.linkRepo}>
-          Repo
+          Go to Repo
         </Link>
         {/* <Link bg="black" color="whitesmoke" padding="0 10px" href={data?.linkGoTo}>
           Go to
