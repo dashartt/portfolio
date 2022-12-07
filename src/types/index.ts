@@ -2,6 +2,6 @@ export type ProjectDTO = {
   name: string;
   thumbnail: string;
   linkRepo: string;
-  linkGoTo: string;
+  linkGoTo: string | null;
   tags?: string[];
 };

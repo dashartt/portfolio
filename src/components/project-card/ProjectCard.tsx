@@ -8,14 +8,14 @@ type Props = {
 
 export default function ProjectCard({ data }: Props) {
   return (
-    <Box bg="white" maxW="200px" padding="10px" margin="0 auto">
+    <Box bg="white" maxW="300px" padding="10px" margin="0 auto">
       <HStack justifyContent="space-between">
         <Link bg="black" color="whitesmoke" padding="0 10px" href={data?.linkRepo}>
           Repo
         </Link>
-        <Link bg="black" color="whitesmoke" padding="0 10px" href={data?.linkGoTo}>
+        {/* <Link bg="black" color="whitesmoke" padding="0 10px" href={data?.linkGoTo}>
           Go to
-        </Link>
+        </Link> */}
       </HStack>
       <Image
         margin="10px 0"
@@ -27,7 +27,9 @@ export default function ProjectCard({ data }: Props) {
         {data?.name}
       </Heading>
       {data?.tags?.map((tag) => (
-        <Badge key={Math.random() * 100}>{tag}</Badge>
+        <Badge m="0.2em" colorScheme="blue" key={Math.random() * 100}>
+          {tag}
+        </Badge>
       ))}
     </Box>
   );
