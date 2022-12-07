@@ -3,7 +3,7 @@
     "name": "transfer-money",
     "thumbnail": "src/assets/projects/thumbnails/transfer-money/Transfer-Money-Img1.png",
     "linkRepo": "https://github.com/jonatasqueirozlima/transfer-money",
-    "linkGoTo": "...",
-    "tags": ["react", "express", "typescript", "prisma"]
+    "linkGoTo": null,
+    "tags": ["react", "express", "typescript", "prisma", "chakra ui"]
   }
 ]
