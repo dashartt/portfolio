@@ -8,17 +8,43 @@ type Props = {
 
 export default function ProjectCard({ data }: Props) {
   return (
-    <Box bg="white" maxW="300px" padding="10px" margin="0 auto">
+    <Box
+      bg="white"
+      minW="300px"
+      maxW="300px"
+      h="fit-content"
+      padding="10px"
+      margin="0 auto"
+    >
       <HStack justifyContent="space-between">
-        <Link bg="black" color="whitesmoke" padding="0 10px" href={data?.linkRepo}>
+        <Link
+          target="_blank"
+          bg="black"
+          color="whitesmoke"
+          padding="0 10px"
+          href={data?.linkRepo}
+        >
           Go to Repo
         </Link>
-        {/* <Link bg="black" color="whitesmoke" padding="0 10px" href={data?.linkGoTo}>
-          Go to
-        </Link> */}
+
+        {data.linkGoTo && (
+          <Link
+            target="_blank"
+            bg="black"
+            color="whitesmoke"
+            padding="0 10px"
+            href={data?.linkGoTo}
+          >
+            To view
+          </Link>
+        )}
       </HStack>
       <Image
         margin="10px 0"
+        w="full"
+        h="56"
+        objectFit="cover"
+        objectPosition="top center"
         src={data?.thumbnail}
         alt="projeto#1"
         fallbackSrc="https://via.placeholder.com/150"
