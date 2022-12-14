@@ -1,5 +1,12 @@
 [
   {
+    "name": "b2w-challenge-front-bit",
+    "thumbnail": "src/assets/projects/thumbnails/bw2-challenge-front-bit/b2w-challenge-img2.png",
+    "linkGoTo": "https://b2w-challenge-front-bit.vercel.app/",
+    "linkRepo": "https://github.com/jonatasqueirozlima/b2w-challenge-front-BIT",
+    "tags": ["react", "typescript", "tailwindcss"]
+  },
+  {
     "name": "transfer-money",
     "thumbnail": "src/assets/projects/thumbnails/transfer-money/Transfer-Money-Img1.png",
     "linkRepo": "https://github.com/jonatasqueirozlima/transfer-money",
