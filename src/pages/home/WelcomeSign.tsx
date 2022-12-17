@@ -20,7 +20,7 @@ export default function WelcomeSign() {
         >
           <Link to="/projects">Projects</Link>
         </Text>
-        <Text
+        {/* <Text
           color="black"
           backgroundColor="white"
           padding="10px 20px"
@@ -28,7 +28,7 @@ export default function WelcomeSign() {
           textAlign="center"
         >
           <Link to="/about-me">About</Link>
-        </Text>
+        </Text> */}
       </VStack>
     </Box>
   );

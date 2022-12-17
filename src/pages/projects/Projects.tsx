@@ -24,7 +24,11 @@ export default function Projects() {
         Projetos
       </Heading>
 
-      <SimpleGrid margin="1.5m" columns={{ base: 1, sm: 2, md: 3, lg: 4 }} gap="2em">
+      <SimpleGrid
+        margin="1.5m"
+        columns={{ base: 1, sm: 1, md: 2, lg: 3, xl: 4 }}
+        gap="2em"
+      >
         {projects?.map((project) => (
           <ProjectCard key={Math.random() * 100} data={project} />
         ))}
