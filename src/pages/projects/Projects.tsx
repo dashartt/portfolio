@@ -6,7 +6,12 @@ import ProjectCard from '../../components/project-card/ProjectCard';
 
 export default function Projects() {
   return (
-    <Box minH="100vh" bgImage="url(src/assets/dark-sky.gif)" bgSize="cover" padding="2em">
+    <Box
+      minH="100vh"
+      bgImage="url(https://i.pinimg.com/originals/9f/65/fa/9f65fa4741fbf0750544bf7c0fb7ae4d.gif)"
+      bgSize="cover"
+      padding="2em"
+    >
       <Header />
 
       <Heading

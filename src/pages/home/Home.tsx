@@ -8,7 +8,7 @@ export default function Thumbnail() {
       justifyContent="center"
       alignItems="center"
       minH="100vh"
-      bgImage="url(src/assets/thumbnail.gif)"
+      bgImage="url(https://media.tenor.com/WPqFfKvgIbUAAAAd/stars-train.gif)"
       bgSize="cover"
     >
       <WelcomeSign />
