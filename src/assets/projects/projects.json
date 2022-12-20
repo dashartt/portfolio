@@ -1,14 +1,14 @@
 [
   {
     "name": "b2w-challenge-front-bit",
-    "thumbnail": "src/assets/projects/thumbnails/bw2-challenge-front-bit/b2w-challenge-img1.png",
+    "thumbnail": "https://github.com/jonatasqueirozlima/b2w-challenge-front-BIT/blob/master/assets/b2w-challenge-img1.png",
     "linkGoTo": "https://b2w-challenge-front-bit.vercel.app/",
     "linkRepo": "https://github.com/jonatasqueirozlima/b2w-challenge-front-BIT",
     "tags": ["react", "typescript", "tailwindcss"]
   },
   {
     "name": "transfer-money",
-    "thumbnail": "src/assets/projects/thumbnails/transfer-money/Transfer-Money-Img0.png",
+    "thumbnail": "https://github.com/jonatasqueirozlima/transfer-money/blob/main/assets/Transfer-Money-Img2.png",
     "linkRepo": "https://github.com/jonatasqueirozlima/transfer-money",
     "linkGoTo": null,
     "tags": ["react", "express", "typescript", "prisma", "chakra ui"]
