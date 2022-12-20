@@ -1,4 +1,4 @@
-import { Box, Heading, SimpleGrid } from '@chakra-ui/react';
+import { Box, Heading, Image, SimpleGrid } from '@chakra-ui/react';
 
 import projects from '../../assets/projects/projects.json';
 import Header from '../../components/header/Header';

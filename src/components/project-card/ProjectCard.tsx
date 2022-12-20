@@ -11,12 +11,13 @@ export default function ProjectCard({ data }: Props) {
     <Box
       bg="white"
       minW="300px"
+      minH="120px"
       maxW="300px"
       h="fit-content"
       padding="10px"
       margin="0 auto"
     >
-      <HStack justifyContent="space-between">
+      <HStack justifyContent="space-between" mb="4">
         <Link
           target="_blank"
           bg="black"
@@ -39,7 +40,7 @@ export default function ProjectCard({ data }: Props) {
           </Link>
         )}
       </HStack>
-      <Image
+      {/* <Image
         margin="10px 0"
         w="full"
         h="56"
@@ -47,8 +48,8 @@ export default function ProjectCard({ data }: Props) {
         objectPosition="top center"
         src={data.thumbnail}
         alt="projeto#1"
-        // fallbackSrc="https://via.placeholder.com/150"
-      />
+        fallbackSrc="https://via.placeholder.com/150"
+      /> */}
       <Heading fontSize="1.2em" as="h2">
         {data?.name}
       </Heading>
