@@ -14,6 +14,13 @@
     "tags": ["react", "express", "typescript", "prisma", "chakra ui"]
   },
   {
+    "name": "belezanaweb-test-front",
+    "thumbnail": "https://github.com/jonatasqueirozlima/belezanaweb-test-front/blob/main/assets/img1.png",
+    "linkRepo": "https://github.com/jonatasqueirozlima/belezanaweb-test-front",
+    "linkGoTo": "https://belezanaweb-test-front-42ya.vercel.app/#/shopping-cart",
+    "tags": ["react", "typescript", "tailwindcss"]
+  },
+  {
     "name": "gw2-world-boss-notification",
     "thumbnail": "https://github.com/jonatasqueirozlima/transfer-money/blob/main/assets/Transfer-Money-Img2.png",
     "linkRepo": "https://github.com/jonatasqueirozlima/gw2-world-boss-notification",
