@@ -1,10 +1,10 @@
 [
   {
-    "name": "b2w-challenge-front-bit",
-    "thumbnail": "https://github.com/jonatasqueirozlima/b2w-challenge-front-BIT/blob/master/assets/b2w-challenge-img1.png",
-    "linkGoTo": "https://b2w-challenge-front-bit.vercel.app/",
-    "linkRepo": "https://github.com/jonatasqueirozlima/b2w-challenge-front-BIT",
-    "tags": ["react", "typescript", "tailwindcss"]
+    "name": "transfer-money",
+    "thumbnail": "https://github.com/jonatasqueirozlima/transfer-money/blob/main/assets/Transfer-Money-Img2.png",
+    "linkRepo": "https://github.com/jonatasqueirozlima/transfer-money",
+    "linkGoTo": null,
+    "tags": ["react", "express", "typescript", "prisma", "chakra ui"]
   },
   {
     "name": "trybetunes",
@@ -14,11 +14,11 @@
     "tags": ["react", "bootstrap", "animatecss"]
   },
   {
-    "name": "transfer-money",
-    "thumbnail": "https://github.com/jonatasqueirozlima/transfer-money/blob/main/assets/Transfer-Money-Img2.png",
-    "linkRepo": "https://github.com/jonatasqueirozlima/transfer-money",
-    "linkGoTo": null,
-    "tags": ["react", "express", "typescript", "prisma", "chakra ui"]
+    "name": "b2w-challenge-front-bit",
+    "thumbnail": "https://github.com/jonatasqueirozlima/b2w-challenge-front-BIT/blob/master/assets/b2w-challenge-img1.png",
+    "linkGoTo": "https://b2w-challenge-front-bit.vercel.app/",
+    "linkRepo": "https://github.com/jonatasqueirozlima/b2w-challenge-front-BIT",
+    "tags": ["react", "typescript", "tailwindcss"]
   },
   {
     "name": "belezanaweb-test-front",
