@@ -50,7 +50,7 @@ export default function ProjectCard({ data }: Props) {
         alt="projeto#1"
         fallbackSrc="https://via.placeholder.com/150"
       /> */}
-      <Heading fontSize="1.2em" as="h2">
+      <Heading fontSize="1.2em" as="h2" mb="2">
         {data?.name}
       </Heading>
       {data?.tags?.map((tag) => (
