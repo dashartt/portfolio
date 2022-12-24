@@ -28,6 +28,13 @@
     "tags": ["react", "typescript", "tailwindcss"]
   },
   {
+    "name": "car-shop-mongoose-oop",
+    "thumbnail": null,
+    "linkRepo": "",
+    "linkGoTo": null,
+    "tags": ["express", "typescript", "mocha", "chai", "sinon"]
+  },
+  {
     "name": "gw2-world-boss-notification",
     "thumbnail": "https://github.com/jonatasqueirozlima/transfer-money/blob/main/assets/Transfer-Money-Img2.png",
     "linkRepo": "https://github.com/jonatasqueirozlima/gw2-world-boss-notification",
