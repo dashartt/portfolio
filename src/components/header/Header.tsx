@@ -1,7 +1,7 @@
 import { HStack, Image, Text } from '@chakra-ui/react';
 import { Link } from 'react-router-dom';
 
-import signature from '../../assets/signature-w.png';
+import signature from '../../../assets/signature-w.png';
 
 export default function Header() {
   return (

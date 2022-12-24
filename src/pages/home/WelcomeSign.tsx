@@ -1,7 +1,7 @@
 import { Box, Heading, Image, Text, VStack } from '@chakra-ui/react';
 import { Link } from 'react-router-dom';
 
-import signature from '../../assets/signature-w.png';
+import signature from '../../../assets/signature-w.png';
 
 export default function WelcomeSign() {
   return (
