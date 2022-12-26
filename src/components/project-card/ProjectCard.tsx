@@ -1,4 +1,4 @@
-import { Badge, Box, Heading, HStack, Image, Link, Text } from '@chakra-ui/react';
+import { Badge, Box, Heading, HStack, Image, Link } from '@chakra-ui/react';
 
 import { ProjectDTO } from '../../types';
 
@@ -47,7 +47,7 @@ export default function ProjectCard({ data }: Props) {
           h="56"
           objectFit="cover"
           objectPosition="top center"
-          src={`../../../assets/projects/${data.name}.png`}
+          src={`/${data.name}.png`}
           alt={`Thumbnail do projeto ${data.name}`}
         />
       )} */}
