@@ -47,9 +47,8 @@ export default function ProjectCard({ data }: Props) {
           h="56"
           objectFit="cover"
           objectPosition="top center"
-          src={data.thumbnail}
+          src={`../../../assets/projects/${data.name}.png`}
           alt={`Thumbnail do projeto ${data.name}`}
-          fallbackSrc="https://via.placeholder.com/150"
         />
       )}
       <Heading fontSize="1.2em" as="h2" mb="2">
