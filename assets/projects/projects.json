@@ -1,28 +1,28 @@
 [
   {
     "name": "transfer-money",
-    "thumbnail": "https://github.com/jonatasqueirozlima/transfer-money/blob/main/assets/Transfer-Money-Img2.png",
+    "thumbnail": "assets/projects/transfer-money.png",
     "linkRepo": "https://github.com/jonatasqueirozlima/transfer-money",
     "linkGoTo": null,
     "tags": ["react", "express", "typescript", "prisma", "chakra ui"]
   },
   {
     "name": "trybetunes",
-    "thumbnail": "https://github.com/jonatasqueirozlima/transfer-money/blob/main/assets/Transfer-Money-Img2.png",
+    "thumbnail": "assets/projects/trybetunes.png",
     "linkRepo": "https://github.com/jonatasqueirozlima/trybe-tunes",
     "linkGoTo": "https://jonatasqueirozlima.github.io/trybe-tunes/",
     "tags": ["react", "bootstrap", "animatecss"]
   },
   {
     "name": "b2w-challenge-front-bit",
-    "thumbnail": "https://github.com/jonatasqueirozlima/b2w-challenge-front-BIT/blob/master/assets/b2w-challenge-img1.png",
+    "thumbnail": "assets/projects/b2w-challenge.png",
     "linkGoTo": "https://b2w-challenge-front-bit.vercel.app/",
     "linkRepo": "https://github.com/jonatasqueirozlima/b2w-challenge-front-BIT",
     "tags": ["react", "typescript", "tailwindcss"]
   },
   {
     "name": "belezanaweb-test-front",
-    "thumbnail": "https://github.com/jonatasqueirozlima/belezanaweb-test-front/blob/main/assets/img1.png",
+    "thumbnail": "assets/projects/belezanaweb-test-front.png",
     "linkRepo": "https://github.com/jonatasqueirozlima/belezanaweb-test-front",
     "linkGoTo": "https://belezanaweb-test-front-42ya.vercel.app/#/shopping-cart",
     "tags": ["react", "typescript", "tailwindcss"]
@@ -30,13 +30,13 @@
   {
     "name": "car-shop-mongoose-oop",
     "thumbnail": null,
-    "linkRepo": "",
+    "linkRepo": "https://github.com/jonatasqueirozlima/car-shop-mongoose-oop",
     "linkGoTo": null,
     "tags": ["express", "typescript", "mocha", "chai", "sinon"]
   },
   {
     "name": "gw2-world-boss-notification",
-    "thumbnail": "https://github.com/jonatasqueirozlima/transfer-money/blob/main/assets/Transfer-Money-Img2.png",
+    "thumbnail": "assets/projects/gw2-world-boss-notification.png",
     "linkRepo": "https://github.com/jonatasqueirozlima/gw2-world-boss-notification",
     "linkGoTo": null,
     "tags": ["python", "discordpy", "scheduled-tasks"]

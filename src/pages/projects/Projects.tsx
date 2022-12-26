@@ -1,6 +1,6 @@
 import { Box, Heading, Image, SimpleGrid } from '@chakra-ui/react';
 
-import projects from '../../../assets/projects.json';
+import projects from '../../../assets/projects/projects.json';
 import Header from '../../components/header/Header';
 import ProjectCard from '../../components/project-card/ProjectCard';
 
