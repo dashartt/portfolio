@@ -40,7 +40,7 @@ export default function ProjectCard({ data }: Props) {
           </Link>
         )}
       </HStack>
-      {data.thumbnail && (
+      {/* {data.thumbnail && (
         <Image
           margin="10px 0"
           w="full"
@@ -50,7 +50,7 @@ export default function ProjectCard({ data }: Props) {
           src={`../../../assets/projects/${data.name}.png`}
           alt={`Thumbnail do projeto ${data.name}`}
         />
-      )}
+      )} */}
       <Heading fontSize="1.2em" as="h2" mb="2">
         {data?.name}
       </Heading>
