@@ -40,16 +40,18 @@ export default function ProjectCard({ data }: Props) {
           </Link>
         )}
       </HStack>
-      {/* <Image
-        margin="10px 0"
-        w="full"
-        h="56"
-        objectFit="cover"
-        objectPosition="top center"
-        src={data.thumbnail}
-        alt="projeto#1"
-        fallbackSrc="https://via.placeholder.com/150"
-      /> */}
+      {data.thumbnail && (
+        <Image
+          margin="10px 0"
+          w="full"
+          h="56"
+          objectFit="cover"
+          objectPosition="top center"
+          src={data.thumbnail}
+          alt={`Thumbnail do projeto ${data.name}`}
+          fallbackSrc="https://via.placeholder.com/150"
+        />
+      )}
       <Heading fontSize="1.2em" as="h2" mb="2">
         {data?.name}
       </Heading>
