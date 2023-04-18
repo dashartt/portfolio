@@ -3,6 +3,7 @@ import { Flex } from '@chakra-ui/react';
 import WelcomeSign from './WelcomeSign';
 
 export default function Thumbnail() {
+  document.title = 'Home | Portfolio';
   return (
     <Flex
       justifyContent="center"

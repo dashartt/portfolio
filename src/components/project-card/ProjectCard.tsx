@@ -17,7 +17,7 @@ export default function ProjectCard({ data }: Props) {
       padding="10px"
       margin="0 auto"
     >
-      <HStack justifyContent="space-between" mb="4">
+      <HStack justifyContent="flex-end" mb="4">
         <Link
           target="_blank"
           bg="black"
@@ -25,7 +25,7 @@ export default function ProjectCard({ data }: Props) {
           padding="0 10px"
           href={data?.linkRepo}
         >
-          Go to Repo
+          repo
         </Link>
 
         {data.linkGoTo && (
@@ -36,11 +36,11 @@ export default function ProjectCard({ data }: Props) {
             padding="0 10px"
             href={data?.linkGoTo}
           >
-            To view
+            view
           </Link>
         )}
       </HStack>
-      {/* {data.thumbnail && (
+      {data.thumbnail && (
         <Image
           margin="10px 0"
           w="full"
@@ -50,7 +50,7 @@ export default function ProjectCard({ data }: Props) {
           src={`/${data.name}.png`}
           alt={`Thumbnail do projeto ${data.name}`}
         />
-      )} */}
+      )}
       <Heading fontSize="1.2em" as="h2" mb="2">
         {data?.name}
       </Heading>
