@@ -1,5 +1,24 @@
 [
   {
+    "name": "food-dashing-app",
+    "thumbnail": "assets/projects/food-dashing-app.png",
+    "linkRepo": "https://github.com/dashartt/food-dashing-app-frontend",
+    "linkGoTo": "https://fooddashingapp.vercel.app/",
+    "tags": [
+      "react",
+      "next.js",
+      "express",
+      "socket.io",
+      "typescript",
+      "mongoose",
+      "chakra ui",
+      "tailwindcss",
+      "pusher",
+      "beam",
+      "geoapify"
+    ]
+  },
+  {
     "name": "transfer-money",
     "thumbnail": "assets/projects/transfer-money.png",
     "linkRepo": "https://github.com/jonatasqueirozlima/transfer-money",
@@ -9,8 +28,8 @@
   {
     "name": "trybetunes",
     "thumbnail": "assets/projects/trybetunes.png",
-    "linkRepo": "https://github.com/jonatasqueirozlima/trybe-tunes",
-    "linkGoTo": "https://jonatasqueirozlima.github.io/trybe-tunes/",
+    "linkRepo": "https://github.com/dashartt/trybe-tunes",
+    "linkGoTo": "https://dashartt.github.io/trybe-tunes",
     "tags": ["react", "bootstrap", "animatecss"]
   },
   {
