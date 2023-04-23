@@ -1,17 +1,16 @@
 import { Box, Heading, Image, SimpleGrid } from '@chakra-ui/react';
+import { useId } from 'react';
 
-import projects from '../../../assets/projects.json';
+import bgImage from '../../../public/img/dark-sky.gif';
+import projects from '../../../public/projects.json';
 import Header from '../../components/header/Header';
 import ProjectCard from '../../components/project-card/ProjectCard';
 
 export default function Projects() {
+  document.title = 'Projects | Portfolio';
+
   return (
-    <Box
-      minH="100vh"
-      bgImage="url(https://i.pinimg.com/originals/9f/65/fa/9f65fa4741fbf0750544bf7c0fb7ae4d.gif)"
-      bgSize="cover"
-      padding="2em"
-    >
+    <Box minH="100vh" bgImage={bgImage} bgSize="cover" padding="2em">
       <Header />
 
       <Heading
@@ -30,7 +29,7 @@ export default function Projects() {
         gap="2em"
       >
         {projects?.map((project) => (
-          <ProjectCard key={Math.random() * 100} data={project} />
+          <ProjectCard key={useId()} data={project} />
         ))}
       </SimpleGrid>
     </Box>

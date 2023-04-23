@@ -1,11 +1,11 @@
 import { Box, HStack, Image, Text } from '@chakra-ui/react';
 import { Link } from 'react-router-dom';
 
-import signature from '../../../assets/signature-w.png';
+import signature from '../../../public/img/signature-w.png';
 
 export default function Header() {
   return (
-    <Box position="sticky" top={0} backgroundColor="black" width="full">
+    <Box width="full">
       <HStack
         margin="auto"
         justifyContent="space-between"
@@ -14,15 +14,14 @@ export default function Header() {
       >
         <Image width="5em" src={signature} alt="logo do portfolio" borderRightWidth={1} />
 
-        <Text fontSize="2xl" color="white">
-          <Link to="/">Home</Link>
-        </Text>
-        <Text fontSize="2xl" color="white">
-          <Link to="/projects">Projects</Link>
-        </Text>
-        {/* <Text borderBottom="1px solid white" color="white">
-        <Link to="/about-me">About</Link>
-      </Text> */}
+        <HStack gap={4}>
+          <Text fontSize="2xl" color="white">
+            <Link to="/">Home</Link>
+          </Text>
+          <Text fontSize="2xl" color="white">
+            <Link to="/projects">Projects</Link>
+          </Text>
+        </HStack>
       </HStack>
     </Box>
   );

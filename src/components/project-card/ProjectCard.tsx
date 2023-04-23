@@ -1,4 +1,5 @@
 import { Badge, Box, Heading, HStack, Image, Link } from '@chakra-ui/react';
+import { useId } from 'react';
 
 import { ProjectDTO } from '../../types';
 
@@ -47,7 +48,7 @@ export default function ProjectCard({ data }: Props) {
           h="56"
           objectFit="cover"
           objectPosition="top center"
-          src={`/${data.name}.png`}
+          src={`/img/thumbnail-projects/${data.name}.png`}
           alt={`Thumbnail do projeto ${data.name}`}
         />
       )}
@@ -55,7 +56,7 @@ export default function ProjectCard({ data }: Props) {
         {data?.name}
       </Heading>
       {data?.tags?.map((tag) => (
-        <Badge m="0.2em" colorScheme="blue" key={Math.random() * 100}>
+        <Badge m="0.2em" colorScheme="blue" key={useId()}>
           {tag}
         </Badge>
       ))}
