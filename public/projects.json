@@ -19,9 +19,16 @@
     ]
   },
   {
+    "name": "vuttr-usefull-tools",
+    "thumbnail": "assets/projects/vuttr-usefull-tools.png",
+    "linkRepo": "https://github.com/dashartt/vuttr-usefull-tools",
+    "linkGoTo": "https://vuttr-usefull-tools.vercel.app",
+    "tags": ["react", "json-server", "typescript", "chakra ui", "tailwindcss"]
+  },
+  {
     "name": "transfer-money",
     "thumbnail": "assets/projects/transfer-money.png",
-    "linkRepo": "https://github.com/jonatasqueirozlima/transfer-money",
+    "linkRepo": "https://github.com/dashartt/transfer-money",
     "linkGoTo": null,
     "tags": ["react", "express", "typescript", "prisma", "chakra ui"]
   },
