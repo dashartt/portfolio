@@ -1,0 +1,70 @@
+[
+  {
+    "name": "food-dashing-app",
+    "thumbnail": "assets/projects/food-dashing-app.png",
+    "linkRepo": "https://github.com/dashartt/food-dashing-app-frontend",
+    "linkGoTo": "https://fooddashingapp.vercel.app/",
+    "tags": [
+      "react",
+      "next.js",
+      "express",
+      "socket.io",
+      "typescript",
+      "mongoose",
+      "chakra ui",
+      "tailwindcss",
+      "pusher",
+      "beam",
+      "geoapify"
+    ]
+  },
+  {
+    "name": "vuttr-usefull-tools",
+    "thumbnail": "assets/projects/vuttr-usefull-tools.png",
+    "linkRepo": "https://github.com/dashartt/vuttr-usefull-tools",
+    "linkGoTo": "https://vuttr-usefull-tools.vercel.app",
+    "tags": ["react", "json-server", "typescript", "chakra ui", "tailwindcss"]
+  },
+  {
+    "name": "transfer-money",
+    "thumbnail": "assets/projects/transfer-money.png",
+    "linkRepo": "https://github.com/dashartt/transfer-money",
+    "linkGoTo": null,
+    "tags": ["react", "express", "typescript", "prisma", "chakra ui"]
+  },
+  {
+    "name": "trybetunes",
+    "thumbnail": "assets/projects/trybetunes.png",
+    "linkRepo": "https://github.com/dashartt/trybe-tunes",
+    "linkGoTo": "https://dashartt.github.io/trybe-tunes",
+    "tags": ["react", "bootstrap", "animatecss"]
+  },
+  {
+    "name": "b2w-challenge-front-bit",
+    "thumbnail": "assets/projects/b2w-challenge.png",
+    "linkGoTo": "https://b2w-challenge-front-bit.vercel.app/",
+    "linkRepo": "https://github.com/jonatasqueirozlima/b2w-challenge-front-BIT",
+    "tags": ["react", "typescript", "tailwindcss"]
+  },
+  {
+    "name": "belezanaweb-test-front",
+    "thumbnail": "assets/projects/belezanaweb-test-front.png",
+    "linkRepo": "https://github.com/jonatasqueirozlima/belezanaweb-test-front",
+    "linkGoTo": "https://belezanaweb-test-front-42ya.vercel.app/#/shopping-cart",
+    "tags": ["react", "typescript", "tailwindcss"]
+  },
+  {
+    "name": "car-shop-mongoose-oop",
+    "thumbnail": null,
+    "linkRepo": "https://github.com/jonatasqueirozlima/car-shop-mongoose-oop",
+    "linkGoTo": null,
+    "tags": ["express", "typescript", "mocha", "chai", "sinon"]
+  },
+  {
+    "name": "gw2-world-boss-notification",
+    "thumbnail": "assets/projects/gw2-world-boss-notification.png",
+    "linkRepo": "https://github.com/jonatasqueirozlima/gw2-world-boss-notification",
+    "linkGoTo": null,
+    "tags": ["python", "discordpy", "scheduled-tasks"]
+  }
+]
