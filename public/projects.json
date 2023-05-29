@@ -1,5 +1,5 @@
 [
-  {
+  /*{
     "name": "food-dashing-app",
     "thumbnail": "assets/projects/food-dashing-app.png",
     "linkRepo": "https://github.com/dashartt/food-dashing-app-frontend",
@@ -17,7 +17,7 @@
       "beam",
       "geoapify"
     ]
-  },
+  },*/
   {
     "name": "vuttr-usefull-tools",
     "thumbnail": "assets/projects/vuttr-usefull-tools.png",
